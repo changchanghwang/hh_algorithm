@@ -15,3 +15,6 @@ completion의 길이는 participant의 길이보다 1 작습니다.
 |["leo", "kiki", "eden"]|["eden", "kiki"]|"leo"|
 |["marina", "josipa", "nikola", "vinko", "filipa"]|["josipa", "filipa", "marina", "nikola"]|"vinko"|
 |["mislav", "stanko", "mislav", "ana"]|["stanko", "ana", "mislav"]|"mislav"|
+
+### 풀이방법
+완주한 선수중 없는 선수를 찾는 방법을 알아볼 것.
