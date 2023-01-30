@@ -23,7 +23,7 @@ function solution3(s) {
      * @example '1e34' -> ['1','e','3','4']
      * every는 모든 return값이 true여야함.
      */
-    answer = s.split('').every((e) => !isNaN(Number(e)));
+    answer = s.split('').every((e) => !isNaN(e)); // every -> 콜백이 전부 true -> true, false 1개라도 있으면 false
   } else {
     answer = false;
   }
