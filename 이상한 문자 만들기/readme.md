@@ -11,3 +11,6 @@
 |s|return|
 |---|---|
 |"try hello world"|"TrY HeLlO WoRlD"|
+
+### 풀이 방법
+- 공백으로 구분한 후 인덱스로 짝홀수를 판단하여 대소문자 구별을 해준다.

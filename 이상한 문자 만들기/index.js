@@ -8,7 +8,6 @@ function solution(s) {
       return elements
         .map((e, i) => {
           if (i % 2 === 0) {
-            console.log(e);
             return e.toUpperCase();
           }
           return e;
