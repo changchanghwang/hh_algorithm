@@ -30,4 +30,15 @@ function solution3(s) {
   return answer;
 }
 
-console.log(solution3(s));
+function solution4(s) {
+  if (s.length === 4 || s.length === 6) {
+    for (let i = 0; i < s.length; i++) {
+      if (isNaN(s[i])) return false;
+    }
+  } else {
+    return false;
+  }
+  return true;
+}
+
+console.log(solution4(s));
